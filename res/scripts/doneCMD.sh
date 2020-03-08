@@ -7,5 +7,5 @@ if [[ -d ${UP} ]]; then
 fi
 
 #Upload to Gdrive
-mkdir -p "/content/drive/My Drive/linuxu/$(dirname "${CLD_PATH}")"
-mv "${UP}" "/content/drive/My Drive/linuxu/${CLD_PATH}"
+mkdir -p "/content/drive/My Drive/Shared drives/linuxu/$(dirname "${CLD_PATH}")"
+mv "${UP}" "/content/drive/My Drive/Shared drives/linuxu/${CLD_PATH}"
